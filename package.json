@@ -1,0 +1,36 @@
+{
+  "name": "vogat-functions",
+  "version": "1.0.0",
+  "description": "function for Vogat web",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "postinstall": "npx prisma generate"
+  },
+  "keywords": [],
+  "author": "Pacifique Kamugisha",
+  "license": "MIT",
+  "packageManager": "pnpm@10.10.0",
+  "engines": {
+    "pnpm": "^10.9.0"
+  },
+  "main": "dist/index.js",
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.1.0",
+    "@prisma/client": "^6.19.1",
+    "@tern-secure/backend": "^1.2.0-canary.v20251210182014",
+    "dotenv": "^16.6.1",
+    "firebase-admin": "^12.6.0",
+    "firebase-functions": "^6.1.2",
+    "pg": "^8.16.3",
+    "tsx": "^4.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.0",
+    "@types/pg": "^8.15.6",
+    "dotenv-cli": "^8.0.0",
+    "prisma": "^7.1.0",
+    "typescript": "^5"
+  },
+  "private": true
+}
