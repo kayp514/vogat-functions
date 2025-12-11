@@ -13,8 +13,8 @@ export const syncUserToPrisma = createGenericSync({
   },
 
   extraFields: (user) => ({
-    CreatedAt: new Date(user.metadata.creationTime),
-    LastSignInAt: new Date(user.metadata.lastSignInTime),
+    createdAt: new Date(user.metadata.creationTime),
+    lastSignInAt: new Date(user.metadata.lastSignInTime),
     updatedAt: new Date(),
     disabled: user.disabled || false,
     isAdmin: user.customClaims?.admin || false,
@@ -33,8 +33,8 @@ export const syncUserToPrisma = createGenericSync({
         isAdmin: data.isAdmin,
         phoneNumber: data.phoneNumber,
         emailVerified: data.emailVerified,
-        CreatedAt: data.CreatedAt,
-        LastSignInAt: data.LastSignInAt,
+        createdAt: data.createdAt,
+        lastSignInAt: data.lastSignInAt,
         updatedAt: data.updatedAt,
         disabled: data.disabled
       }

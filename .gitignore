@@ -6,6 +6,8 @@
 
 generated
 
+dist
+
 
 # local env files
 .env*

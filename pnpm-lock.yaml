@@ -15,8 +15,8 @@ importers:
         specifier: ^6.19.1
         version: 6.19.1(prisma@7.1.0(@types/react@19.2.7)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)(typescript@5.9.3))(typescript@5.9.3)
       '@tern-secure/backend':
-        specifier: ^1.2.0-canary.v20251210182014
-        version: 1.2.0-canary.v20251210182014(@upstash/redis@1.35.7)(firebase-admin@12.7.0)(firebase-functions@6.6.0(firebase-admin@12.7.0))(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
+        specifier: 1.2.0-canary.v20251211004701
+        version: 1.2.0-canary.v20251211004701(@upstash/redis@1.35.7)(firebase-admin@12.7.0)(firebase-functions@6.6.0(firebase-admin@12.7.0))(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
       dotenv:
         specifier: ^16.6.1
         version: 16.6.1
@@ -402,16 +402,16 @@ packages:
   '@standard-schema/spec@1.0.0':
     resolution: {integrity: sha512-m2bOd0f2RT9k8QJx1JN85cZYyH1RqFBdlwtkSlf4tBDYLCiiZnv1fIIwacK6cqwXavOydf0NPToMQgpKq+dVlA==}
 
-  '@tern-secure/backend@1.2.0-canary.v20251210182014':
-    resolution: {integrity: sha512-u1npo73mL9FBqFilNPYLRVCWucEZVvZvmW76ne2JalVYR/pKuzobeifUcvZExBZsTqoTQG9yyoaj2N/PKHcMAA==}
+  '@tern-secure/backend@1.2.0-canary.v20251211004701':
+    resolution: {integrity: sha512-7D9vgOYAaoSmtRej6FnpO1/q1d/iQpUD8pCE9B/KC751JtBXxDWe/BIUcHn7KqYDcw7bPlLJlWgGA93k6dEwUA==}
     engines: {node: '>=20'}
     peerDependencies:
       '@upstash/redis': ^1.35.2
       firebase-admin: ^12.7.0
       firebase-functions: ^6.1.2
 
-  '@tern-secure/shared@1.3.0-canary.v20251210182014':
-    resolution: {integrity: sha512-iyUiJQEJIX1HguVG/zbSUZz/bOIki5xIabjGAkDQgNvDlkakXT/qXq/p5sV/JKRwmtawrcqiex9UCy0g84C2GA==}
+  '@tern-secure/shared@1.3.0-canary.v20251211004701':
+    resolution: {integrity: sha512-jPx7XhS+IOQSsN5uHL+H+xZN7jgLXDtPJYTFBY1UadhCMqVcJrnVbAP5wasPzagUXwXrD7+qOMn2NFje139cww==}
     engines: {node: '>=20'}
     peerDependencies:
       react: ^19.0.0 || ^19.0.0-0
@@ -422,8 +422,8 @@ packages:
       react-dom:
         optional: true
 
-  '@tern-secure/types@1.1.0-canary.v20251210182014':
-    resolution: {integrity: sha512-v2YMJOkwH+nn2ggDtt56ZzwNfYk/cztY4qwl/jH6du3csHnw5e+sPV2KjvjgoTMuQLNVrj84KAeVgOYbgmxTog==}
+  '@tern-secure/types@1.1.0-canary.v20251211004701':
+    resolution: {integrity: sha512-1EMiDj0Tf6VadjJnTBSIp/r+kvNdOmt1ceouoDNqgDccPeph7vdAlWPCxJuzcEqmSLNFALWTFiSWm5Kbk+FDnA==}
     engines: {node: '>=20'}
 
   '@tootallnate/once@2.0.0':
@@ -1898,10 +1898,10 @@ snapshots:
 
   '@standard-schema/spec@1.0.0': {}
 
-  '@tern-secure/backend@1.2.0-canary.v20251210182014(@upstash/redis@1.35.7)(firebase-admin@12.7.0)(firebase-functions@6.6.0(firebase-admin@12.7.0))(react-dom@19.2.1(react@19.2.1))(react@19.2.1)':
+  '@tern-secure/backend@1.2.0-canary.v20251211004701(@upstash/redis@1.35.7)(firebase-admin@12.7.0)(firebase-functions@6.6.0(firebase-admin@12.7.0))(react-dom@19.2.1(react@19.2.1))(react@19.2.1)':
     dependencies:
-      '@tern-secure/shared': 1.3.0-canary.v20251210182014(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
-      '@tern-secure/types': 1.1.0-canary.v20251210182014
+      '@tern-secure/shared': 1.3.0-canary.v20251211004701(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
+      '@tern-secure/types': 1.1.0-canary.v20251211004701
       '@upstash/redis': 1.35.7
       cookie: 1.0.2
       firebase-admin: 12.7.0
@@ -1912,9 +1912,9 @@ snapshots:
       - react
       - react-dom
 
-  '@tern-secure/shared@1.3.0-canary.v20251210182014(react-dom@19.2.1(react@19.2.1))(react@19.2.1)':
+  '@tern-secure/shared@1.3.0-canary.v20251211004701(react-dom@19.2.1(react@19.2.1))(react@19.2.1)':
     dependencies:
-      '@tern-secure/types': 1.1.0-canary.v20251210182014
+      '@tern-secure/types': 1.1.0-canary.v20251211004701
       dequal: 2.0.3
       glob-to-regexp: 0.4.1
       js-cookie: 3.0.5
@@ -1923,7 +1923,7 @@ snapshots:
       react: 19.2.1
       react-dom: 19.2.1(react@19.2.1)
 
-  '@tern-secure/types@1.1.0-canary.v20251210182014': {}
+  '@tern-secure/types@1.1.0-canary.v20251211004701': {}
 
   '@tootallnate/once@2.0.0':
     optional: true

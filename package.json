@@ -18,7 +18,7 @@
   "dependencies": {
     "@prisma/adapter-pg": "^7.1.0",
     "@prisma/client": "^6.19.1",
-    "@tern-secure/backend": "^1.2.0-canary.v20251210182014",
+    "@tern-secure/backend": "1.2.0-canary.v20251211004701",
     "dotenv": "^16.6.1",
     "firebase-admin": "^12.6.0",
     "firebase-functions": "^6.1.2",
