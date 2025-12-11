@@ -4,7 +4,7 @@
   "description": "function for Vogat web",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/index.js",
+    "start": "functions-framework --target=syncUserToPrisma",
     "postinstall": "npx prisma generate"
   },
   "keywords": [],
@@ -16,6 +16,7 @@
   },
   "main": "dist/index.js",
   "dependencies": {
+    "@google-cloud/functions-framework": "^4.0.1",
     "@prisma/adapter-pg": "^7.1.0",
     "@prisma/client": "^6.19.1",
     "@tern-secure/backend": "1.2.0-canary.v20251211004701",
