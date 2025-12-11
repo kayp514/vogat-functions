@@ -6,7 +6,7 @@
     "build": "tsc",
     "start": "functions-framework --target=syncUserToPrisma",
     "deploy:firebase": "firebase deploy --only functions",
-    "postinstall": "npx prisma generate"
+    "postinstall": "DATABASE_URL=\"postgresql://dummy:dummy@localhost:5432/dummy\" npx prisma generate"
   },
   "keywords": [],
   "author": "Pacifique Kamugisha",
