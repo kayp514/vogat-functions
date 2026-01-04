@@ -1,7 +1,7 @@
 {
-  "name": "vogat-functions",
+  "name": "vogat-pbx-functions",
   "version": "1.0.0",
-  "description": "function for Vogat web",
+  "description": "function for Vogat PBX",
   "scripts": {
     "start": "functions-framework --target=syncUserToPrisma",
     "deploy": "firebase deploy --only functions",

@@ -1,8 +1,19 @@
 {
   "functions": [
     {
-      "source": ".",
-      "codebase": "default",
+      "source": "vgt-phone",
+      "codebase": "vgt-phone",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    },
+    {
+      "source": "vgt-pbx",
+      "codebase": "vgt-pbx",
       "ignore": [
         "node_modules",
         ".git",
