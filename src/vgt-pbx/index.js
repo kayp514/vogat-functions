@@ -1,3 +1,3 @@
-const { syncUserToPrisma } = require('./auth/onCreate');
+const { syncUserToVgtPbxDB  } = require('./auth/onCreate');
 
-module.exports = { syncUserToPrisma };
+module.exports = { syncUserToVgtPbxDB };

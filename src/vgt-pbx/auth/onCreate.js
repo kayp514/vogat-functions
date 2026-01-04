@@ -6,7 +6,7 @@ admin.initializeApp();
 const API = "https://api-vogat.vercel.app/pbx";
 const API_VERSION = "v1";
 
-exports.syncUserToPrisma = functions.auth.user().onCreate(async (user) => {
+exports.syncUserToVgtPbxDB = functions.auth.user().onCreate(async (user) => {
   const { uid, email, displayName, photoURL, phoneNumber, tenantId, disabled } =
     user;
   const { creationTime, lastSignInTime } = user.metadata;
