@@ -1,0 +1,4 @@
+vogat functions repo. 
+
+to deploy function 
+ - firebase deploy --only functions:vgt-pbx  [specifiy the repo to be deployed]

@@ -16,7 +16,7 @@
     "node": "22",
     "pnpm": "^10.9.0"
   },
-  "main": "src/index.js",
+  "main": "index.js",
   "dependencies": {
     "@google-cloud/functions-framework": "^4.0.1",
     "dotenv": "^16.6.1",
